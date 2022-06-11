@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/et_panjang"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Panjang" />
+
+    <EditText
+        android:id="@+id/et_lebar"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Lebar" />
+
+    <Button
+        android:id="@+id/btn_hitung_luas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Hitung Luas" />
+
+    <Button
+        android:id="@+id/btn_hitung_keliling"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Hitung Keliling" />
+
+    <TextView
+        android:id="@+id/tv_Hasil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Hasil"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+
+
+    <EditText
+        android:id="@+id/et_sisi"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Sisi" />
+
+    <Button
+        android:id="@+id/bt_hitung_luas_persegi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Hitung Luas Persegi" />
+
+    <Button
+        android:id="@+id/bt_hitung_keliling_Persegi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Hitung Keliling Persegi" />
+
+    <TextView
+        android:id="@+id/tv_Jumlah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Jumlah"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+
+</LinearLayout>
